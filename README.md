@@ -3,9 +3,10 @@ Invoice Module
 
 REQUIREMENT
 
-Xamp server
+Xamp server/Wamp server
 
 FOLDERS
+
 css
 js
 index.php
