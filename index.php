@@ -179,6 +179,8 @@
             <br />India. 
             <br />
         </div>
+        <div class="invoice_content">
+        </div>
         
       </div>
       <div class="modal-footer">
@@ -326,7 +328,7 @@ function generate()
      $('.discountdiv').hide();
    var details= $('.invoice').html();
 
-   $('.modal-body').append(details);
+   $('.invoice_content').html(details);
 
 }
 function showdata()
